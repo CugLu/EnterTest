@@ -1,0 +1,35 @@
+a:link {
+	text-decoration: none;
+	color: Black;
+}
+
+a:visited {
+	text-decoration: none;
+	color: Red;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: Green;
+}
+
+a:active {
+	text-decoration: none;
+	color: Blue;
+}
+
+.diva {
+	background: #FFFFFF;
+	filter: alpha(opacity = 50); /*支持 IE 浏览器*/
+	-moz-opacity: 0.50; /*支持 FireFox 浏览器*/
+	opacity: 0.50; /*支持 Chrome, Opera, Safari 等浏览器*/
+	margin: 0 auto;
+	width: 400px;
+	height: 200px;
+}
+
+.divb{
+position:fixed;
+bottom:0;
+Right:0
+}
